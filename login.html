@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+		body {
+	margin: 0;
+	font-family: sans-serif;
+	background-color: #aaaaaa28;
+		}
+
+        .header {
+	font-weight: bold;
+	text-align 	: center;
+	padding 	: 10px 20px 10px 20px;
+	background-image: linear-gradient(to right, #00359c, #51517d);
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	text-align: center;
+	margin: 0px !important;
+	align-items: center;
+	height: 80px;
+	   }
+
+	   .menu {
+	position: relative;
+	display: flex;
+	flex: 1 1 0%;
+	justify-content: center;
+	text-align: center;
+		}
+
+	.menu-list {
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 100%;
+		}
+
+	a {
+	text-decoration: none;
+	color: white;
+		}
+
+	.text-left {
+	width: 50%;
+	text-align: left;
+		}
+	
+
+	.logo {
+	text-align: left;
+	width: 70px;
+	height: auto;
+	border-radius: 50%;
+	border-image: none;
+		}		
+
+	.wellcome {
+		background: #00359c;
+		width: 400px;
+		height: 98px;
+	}
+	.flex-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+			}
+	.flex-container > div {background-color: white;
+								margin: 60px;
+								text-align:center;
+								font-size: 15px;
+								border-radius: 10px;
+							}
+	h3 {
+		padding: 40px;
+		margin: 0px !important;
+		
+	}
+	.in-content {
+		width: 500px;
+		height: 300px;
+	}
+
+	.content-top {
+		background-color: #00359c;
+		color: #f4fbff;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+	}
+
+	.content-bottom {
+		text-align: left;
+		padding-left: 20px;
+		padding-top: 10px;
+	}
+	.login {
+		display: inline-block;
+		cursor: pointer;
+		margin: 40px;
+		background-color: #195ba2;
+    	padding: 7px 30px 7px 30px;
+    	border-radius: 5px;
+		margin: 10px;
+    	width: 100px;
+    	font-size: 13px;
+	}
+	
+	.button {
+		display: flex;
+		background-color: #00359c;
+		margin: 0px;
+		height: 60px;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		padding-left: 300px;
+	}
+
+	form {
+		padding: 10px;
+	}
+	
+	input {
+		padding: 5px;
+    	margin-top: 10px;
+    	width: 400px;
+
+	}
+
+	.footer {
+	padding: 20px;
+	background-color: red;
+	background-image: linear-gradient(to right, #00359c, #51517d);
+	color: white;
+
+}
+
+	.content-footer {
+	padding-left: 20px;
+	padding-right: 20px;
+	display: flex;
+	position: relative;
+	flex: 1 1 0%;
+}
+
+	.in-footer {
+	width: 40%;
+}
+
+	.in-footer .center {
+	width: 30%;
+	padding: 10px;
+}
+
+	.content-input {
+		width: 200px;
+		height: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+	.content-sub {
+	display: flex;
+	position: relative;
+	flex: 1 1 0%;
+}
+
+	.content-sub {
+	background-color: #ffa517;
+	border-radius: 8px;
+	color: white;
+	font-weight: bold;
+	border: 0;
+	cursor: pointer;
+	width: 100px;
+	height: 28px;
+	margin: 10px;
+	padding-left: 35px;
+}
+
+.input2 {
+	display: flex;
+	justify-content: space-between;
+}
+
+li {
+	padding: 5px;
+}
+
+    </style>
+</head>
+<body>
+	<header class="header">
+		<div class="text-left">
+			<a href="login.html">
+				<img src="kfc.jpg" class="logo">
+			</a>
+			</div>
+			<div class="menu text-left">
+				<div class="menu-list">
+					<a href="home.html">HOME</a>
+				</div>
+				<div class="menu-list">
+					<a href="artikel.html">ARTIKEL</a>
+				</div>
+				<div class="menu-list">
+					<a href="tentang-kami.html">TENTANG KAMI</a>
+				</div>
+				<div class="menu-list">
+					<a href="login.html">LOGIN</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main class="content">
+		<div class="flex-container">
+			<div class="in-content">
+
+				<div>
+				<div class="content-top">
+					<h3>Wellcome !, Login to enter dashboard</h3>
+				</div>
+				</div>
+				<div>
+				<div class="content-bottom">
+					<form action="formulir.html" method="get">
+						Username 
+						<br />
+						<input type="text" name="username" value="Username/Email" /> 
+
+						<br />
+						<br />
+
+						Password 
+						<br />
+						<input type="text" name="password" value="password" />
+				</div>
+				<div class="button">
+					<div>
+						<div class="login">
+							<a href="dashboard.html">Login</a>
+					</div>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</main>
+
+	<footer class="footer">
+		<div class="content-footer">
+			<div class="in-footer">
+				<h2>Ghobed Corp</h2>
+				<p class="content-p">Kp.cidarangdan RT 01/01 Ds.Mekarjaya, Kec. Arjasari, Kab. Bandung, Prov.Jawa Barat</p>
+			</div>
+
+			<div class="in-footer :center">
+				<h2>Populer</h2>
+					<ol>
+						<li>Heroskop</li>
+						<li>Anime</li>
+						<li>Drama Korea</li>
+						<li>Youtuber</li>
+					</ol>
+				<br />
+				<br />
+				<p>2021,PT.Ghobedpedia</p>
+			</div>
+
+			<div>
+
+				<p class="content-p">Subscribe kami untuk pemberitahuan lebih lanjut</p>
+			<div class="input2">
+				<input class="content-input" type="text" name="link" align="right">
+				<input class="content-sub" type="submit" name="kirim" align="right" value="kirim">
+			</div>
+			</div>
+			
+		</div>
+	</footer>
+
+</body>
+</html>

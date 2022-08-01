@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <title>Dashboard</title>
+    <style>
+        body {
+	margin: 0;
+	font-family: sans-serif;
+	background-color: #aaaaaa28;
+		}
+
+        p {
+        padding-left: 10px;
+        color: white;
+        font-size: 14px;
+    
+        }
+
+	a {
+	text-decoration: none;
+	color: white;
+		}
+
+	.text-left {
+            width: 20%;
+            display: flex;
+            background-image: linear-gradient(to right, #00359c, #51517d);
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            padding: 10px;
+            margin-left: 7px;
+		}
+	
+
+	.logo {
+	text-align: left;
+	width: 50px;
+	height: auto;
+	border-radius: 50%;
+	border-image: none;
+    }
+
+    .in-content {
+			display: flex;
+			background-color: #f1f1f1;
+        }
+
+	.in-content > div {
+		margin: 6px;
+		padding: 10px;
+		text-align:left;
+		font-size: 15px;
+		border-radius: 5px;
+    }
+    .in-content p {
+        color: black;
+    }
+
+    .flex-container {
+        width: 21%;
+        background-color: white;
+        height: 800px;
+    }
+
+    .content-list {
+        background-color: #195ba2;
+        padding: 3px;
+        margin-top: 10px;
+        display: flex;
+        border-radius: 8px;
+    }
+    .content-list2 {
+        background-color: #4b9bf0;
+        margin-top: 10px;
+        padding: 3px;
+        display: flex;
+        border-radius: 8px;
+    }
+
+    path {
+        color: white;
+    }
+    .artikel {
+        width: 80%;
+        margin: 0px;
+    }
+    
+    .content-top {
+        justify-content: space-between;
+        display: flex;
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+        }
+
+    .content-bottom {
+        background-color: white;
+        padding: 20px;
+        margin-top: 10px;
+        border-radius: 10px;
+        justify-content: space-between;
+        display: flex;
+        height: 87%;
+        }
+    .bg-blue {
+        background-color: #00359c;
+        color: white;
+        width: 300px;
+        padding: 2px 8px 5px 8px;
+        font-size: 12px;
+        height: 60px;
+        border-radius: 8px;
+    }
+
+    .bg-orange {
+        background-color: #e0700c;
+        color: white;
+        width: 300px;
+        padding: 2px 8px 5px 8px;
+        font-size: 12px;
+        height: 60px;
+        border-radius: 8px;
+    }
+
+    .bg-green {
+        background-color: #1f895c;
+        color: white;
+        width: 300px;
+        padding: 2px 8px 5px 8px;
+        font-size: 12px;
+        height: 60px;
+        border-radius: 8px;
+    }
+
+    .bg-pink {
+        background-color: #920475;
+        color: white;
+        width: 300px;
+        padding: 2px 8px 5px 8px;
+        font-size: 12px;
+        height: 60px;
+        border-radius: 8px;
+    }
+
+    .footer {
+	padding: 20px;
+	background-color: red;
+	background-image: linear-gradient(to right, #00359c, #51517d);
+	color: white;
+    height: ;
+}
+
+    .content-footer {
+			display: flex;
+			justify-content: center;
+			background-color: #00359c;
+			color: white;
+			padding-top: 10px;
+			padding-left: 5px;
+            
+		}
+        button {
+            background-color: #195ba2;
+            color: #f1f1f1;
+            border: none;
+        }
+
+        .btn {
+            background-color: #4b9bf0;
+            color: #f1f1f1;
+            border: none;
+        } 
+    </style>
+<body>
+    <header class="header">
+        <div class="text-left">
+            <a href="login.html">
+                    <img src="kfc.jpg" class="logo">
+                </a>
+            <p>Admin PT.Ghobedpedia</p>
+        
+        </div>
+    </header>
+
+    <section class="content">
+                <div class="in-content">
+                    <div class="flex-container">
+                        <div class="content-list2">
+                            <button class="btn">
+                            <i class="fa fa-home fa-lg" aria-hidden="true"></i>
+                            </button>
+                            <p><a href="dashboard.html">Dashboard</p></a>
+                        </div>
+
+                        <div class="content-list">
+                            <button>
+                            <i class="fa fa-file" aria-hidden="true"></i>
+                            </button>
+                            <p><a href="artikel.html">Artikel</p></a>
+                        </div>
+
+                        <div class="content-list">
+                            <button>
+                            <i class="fa fa-podcast" aria-hidden="true"></i>
+                            </button>
+                            <p><a href="komentar.html">Komentar</p></a>
+                        </div>
+                        <div class="content-list">
+                            <button>
+                            <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                            </button>
+                            <p><a href="pengarang.html">Pengarang</p></a>
+
+                        </div>
+                        <div class="content-list">
+                            <button>
+                                <i class="fa fa-heartbeat" aria-hidden="true"></i>
+                            </button>
+                            <p><a href="aktivitas.html">Aktivitas</p></a>
+                        </div>
+                        <div class="content-list">
+                            <button>
+                                <i class="fa fa-cogs" aria-hidden="true"></i>
+                            </button>
+                            <p><a href="setting.html">Setting</p></a>
+                        </div>
+                    </div>
+                    <div class="artikel">
+                        <div class="content-top">
+                            <p>Dashboard</p>
+                            <p>Logout</p>
+                        </div>
+                        <div class="content-bottom">
+                            <div class="bg-blue">
+                                <h4>Total Artikel</h4>
+                                <h5>100 Artikel</h5>
+                            </div> 
+                             <div class="bg-orange">
+                                <h4>Total Komentar</h4>
+                                <h5>100 Komentar</h5>
+                            </div>
+                            <div class="bg-green">
+                                <h4>Total Pengarang</h4>
+                                <h5>100 Pengarang</h5>
+                            </div>
+                            <div class="bg-pink">
+                                <h4>Total Aktivitas</h4>
+                                 <h5>100 Aktivitas</h5>
+                            </div>
+                            </div>  
+                    </div>
+                </div> 
+    <footer>
+            <div class="content-footer">
+                 <p>2021,PT.Ghobedpedia</p>
+            </div>
+    </footer>
+</body>
+</html>
